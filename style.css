@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form{
+ margin: 0 auto;
+ margin-top: 50px;
+  width: 600px;
+  background-color: lightgray;
+}
+
+div.form-group:first-child{
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 12px;
+}
+
+div.form-group > label, div.form-group > input{
+  display: block;
+ margin-bottom: 12px;
+}
+
+input{
+  padding: 6px 3px;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+button{
+  /*centra el boton*/
+  display: block;
+  /*Le dimos un margen automatico para que se centre*/
+  margin: 0 auto;
+  /*Cambia el color del boton*/
+  background-color: cadetblue;
+  /*Cambia el color del texto*/
+  color: white;
+  /*Le damos un borde al boton*/
+  border: 1px solid brown;
+  /*Le damos un padding al boton*/
+  padding: 10px 20px;
+  /*Le damos un borde redondeado al boton*/
+  border-radius: 10px;
+  /*Le damos un tamaño de fuente al boton*/
+  font-size: 18px;
+  /*Le damos un tipo de fuente al boton*/
+  cursor: pointer;
+  transition: background-color 3s, color 3s, border 3s;
+}
+button:hover{
+  /*Cambia el color del boton cuando se pasa el mouse por encima*/
+  background-color: brown;
+  /*Cambia el color del texto cuando se pasa el mouse por encima*/
+  color: black;
+  /*Cambia el borde del boton cuando se pasa el mouse por encima*/
+  border: 1px solid brown;
+  transition: background-color 8s, color 8s, border 8s;
+}
+/*Quiere que el color del borde y el fondo del formulario cambie cuando se haga click en el check-box*/
